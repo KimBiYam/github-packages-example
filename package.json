@@ -6,7 +6,7 @@
   "repository": "https://github.com/KimBiYam/github-packages-example",
   "license": "MIT",
   "workspaces": [
-    "packages/*/*"
+    "packages/**"
   ],
   "scripts": {
     "lint": "eslint './packages/**/*.{ts,tsx,js,jsx}'",
