@@ -9,6 +9,7 @@
   "files": [
     "dist"
   ],
+  "sideEffects": false,
   "keywords": [],
   "author": "KimBiYam",
   "license": "MIT",
