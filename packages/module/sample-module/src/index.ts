@@ -1,0 +1,1 @@
+export { bye } from './sampleModule';

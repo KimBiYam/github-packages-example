@@ -1,0 +1,5 @@
+{
+  "name": "@kimbiyam/sample-util",
+  "packageManager": "yarn@3.2.3",
+  "source": "src/index.ts"
+}
