@@ -16,7 +16,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": "https://github.com/KimBiYam/github-packages-example",
   "dependencies": {
     "@kimbiyam/sample-util": "workspace:^"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
