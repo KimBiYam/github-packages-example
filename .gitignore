@@ -1,6 +1,8 @@
 .vscode
 node_modules
 .eslintcache
+dist
+.parcel-cache
 
 # Yarn berry zero install
 .yarn/*

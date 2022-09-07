@@ -1,5 +1,19 @@
 {
   "name": "@kimbiyam/sample-util",
-  "packageManager": "yarn@3.2.3",
-  "source": "src/index.ts"
+  "version": "0.0.0",
+  "description": "",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "KimBiYam",
+  "license": "MIT",
+  "repository": "https://github.com/KimBiYam/github-packages-example",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

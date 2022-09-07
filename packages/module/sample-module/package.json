@@ -7,15 +7,11 @@
   "module": "dist/index.module.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist",
-    "README.md"
+    "dist"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "KimBiYam",
+  "license": "MIT",
   "repository": "https://github.com/KimBiYam/github-packages-example",
   "dependencies": {
     "@kimbiyam/sample-util": "workspace:^"
