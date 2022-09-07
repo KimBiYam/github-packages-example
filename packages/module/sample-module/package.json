@@ -13,7 +13,10 @@
   "keywords": [],
   "author": "KimBiYam",
   "license": "MIT",
-  "repository": "https://github.com/KimBiYam/github-packages-example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KimBiYam/github-packages-example"
+  },
   "dependencies": {
     "@kimbiyam/sample-util": "workspace:^"
   },

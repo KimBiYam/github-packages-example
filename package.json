@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Chang Hyun Kim <ckdvk9998@gmail.com>",
-  "repository": "https://github.com/KimBiYam/github-packages-example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KimBiYam/github-packages-example"
+  },
   "license": "MIT",
   "workspaces": [
     "packages/**"
