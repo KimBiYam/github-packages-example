@@ -144,11 +144,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@kimbiyam/sample-module@workspace:packages/module/sample-module"
   dependencies:
-    "@kimbiyam/sample-util": "workspace:^"
+    "@kimbiyam/sample-util": 0.0.0
   languageName: unknown
   linkType: soft
 
-"@kimbiyam/sample-util@workspace:^, @kimbiyam/sample-util@workspace:packages/util/sample-util":
+"@kimbiyam/sample-util@0.0.0, @kimbiyam/sample-util@workspace:packages/util/sample-util":
   version: 0.0.0-use.local
   resolution: "@kimbiyam/sample-util@workspace:packages/util/sample-util"
   languageName: unknown
