@@ -1,6 +1,0 @@
-releases:
-  "@kimbiyam/sample-module": patch
-  "@kimbiyam/sample-util": patch
-
-undecided:
-  - github-packages-example
