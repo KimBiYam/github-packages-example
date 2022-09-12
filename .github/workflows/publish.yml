@@ -1,0 +1,32 @@
+name: Publish Release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        # 전체 커밋 기록을 가져오기 위함
+        # https://yarnpkg.com/features/release-workflow#commit-history
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: https://registry.npmjs.org
+
+      - name: Install dependencies and publish
+        run: yarn publish
+        env:
+          GITHUB_NPM_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Commit release
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Publish release
