@@ -1,1 +1,1 @@
-export const hello = (value: string) => `hello ${value}`;
+export const utilFunction = (value: string) => `util ${value}`;

@@ -1,6 +1,6 @@
-import { hello } from '@kimbiyam/sample-util';
+import { utilFunction } from '@kimbiyam/sample-util';
 
 export const bye = (value: string) => {
-  const helloValue = hello(value);
+  const helloValue = utilFunction(value);
   return `${helloValue} bye ${value}`;
 };

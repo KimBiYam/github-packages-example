@@ -1,1 +1,1 @@
-export { hello } from './sampleUtil';
+export { utilFunction } from './sampleUtil';
