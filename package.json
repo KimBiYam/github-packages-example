@@ -17,7 +17,9 @@
     "build": "yarn build:config && yarn build:packages && yarn build:cleanup",
     "build:config": "mv tsconfig.json tsconfig.tmp.json && mv tsconfig.production.json tsconfig.json",
     "build:cleanup": "mv tsconfig.json tsconfig.production.json && mv tsconfig.tmp.json tsconfig.json",
-    "build:packages": "parcel build 'packages/*/*/' --no-cache"
+    "build:packages": "parcel build 'packages/*/*/' --no-cache",
+    "publish": "yarn bump && yarn build && yarn workspaces foreach -pv --exclude github-packages-example npm publish --tolerate-republish",
+    "bump": "yarn version apply --all"
   },
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
